@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Symptom Tracker</title>
+    <style>
+        /* CSS Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #4A90E2;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 3px solid #357ABD;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .form-section, .feedback-section {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            padding: 30px;
+            transition: transform 0.3s ease, opacity 0.3s ease;
+        }
+
+        .form-section:hover, .feedback-section:hover {
+            transform: translateY(-5px);
+            opacity: 0.95;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0;
+        }
+
+        h2 {
+            font-size: 1.75rem;
+            margin-bottom: 20px;
+            color: #4A90E2;
+        }
+
+        label {
+            display: block;
+            font-size: 1rem;
+            margin-bottom: 5px;
+            font-weight: 600;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            font-size: 1rem;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4A90E2;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #357ABD;
+        }
+
+        footer {
+            background-color: #4A90E2;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            border-top: 3px solid #357ABD;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Symptom Tracker</h1>
+    </header>
+    
+    <main>
+        <section class="form-section">
+            <h2>Enter Your Symptoms</h2>
+            <form id="symptomForm" action="/info2" method="post">
+                <!-- Age -->
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" required><br><br>
+        
+                <!-- Gender -->
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select><br><br>
+        
+                <!-- Symptoms -->
+                <fieldset>
+                    <legend><strong>Symptoms</strong></legend>
+                    <label for="headache">Headache:</label>
+                    <select id="headache" name="headache" required>
+                        <option value="No">No</option>
+                        <option value="Yes">Yes</option>
+                    </select><br><br>
+        
+                    <label for="fever">Fever:</label>
+                    <select id="fever" name="fever" required>
+                        <option value="No">No</option>
+                        <option value="Yes">Yes</option>
+                    </select><br><br>
+        
+                    <label for="cough">Cough:</label>
+                    <select id="cough" name="cough" required>
+                        <option value="No">No</option>
+                        <option value="Yes">Yes</option>
+                    </select><br><br>
+        
+                    <label for="fatigue">Fatigue:</label>
+                    <select id="fatigue" name="fatigue" required>
+                        <option value="No">No</option>
+                        <option value="Yes">Yes</option>
+                    </select><br><br>
+        
+                    <label for="body_aches">Body Aches:</label>
+                    <select id="body_aches" name="body_aches" required>
+                        <option value="No">No</option>
+                        <option value="Yes">Yes</option>
+                    </select><br><br>
+        
+                    <label for="chest_pain">Chest Pain:</label>
+                    <select id="chest_pain" name="chest_pain" required>
+                        <option value="No">No</option>
+                        <option value="Yes">Yes</option>
+                    </select><br><br>
+        
+                    <label for="sore_throat">Sore Throat:</label>
+                    <select id="sore_throat" name="sore_throat" required>
+                        <option value="No">No</option>
+                        <option value="Yes">Yes</option>
+                    </select><br><br>
+        
+                    <label for="shortness_of_breath">Shortness of Breath:</label>
+                    <select id="shortness_of_breath" name="shortness_of_breath" required>
+                        <option value="No">No</option>
+                        <option value="Yes">Yes</option>
+                    </select><br><br>
+        
+                    <label for="runny_nose">Runny Nose:</label>
+                    <select id="runny_nose" name="runny_nose" required>
+                        <option value="No">No</option>
+                        <option value="Yes">Yes</option>
+                    </select><br><br>
+        
+                    <label for="joint_pain">Joint Pain:</label>
+                    <select id="joint_pain" name="joint_pain" required>
+                        <option value="No">No</option>
+                        <option value="Yes">Yes</option>
+                    </select><br><br>
+        
+                    <label for="nausea">Nausea:</label>
+                    <select id="nausea" name="nausea" required>
+                        <option value="No">No</option>
+                        <option value="Yes">Yes</option>
+                    </select><br><br>
+        
+                    <label for="dizziness">Dizziness:</label>
+                    <select id="dizziness" name="dizziness" required>
+                        <option value="No">No</option>
+                        <option value="Yes">Yes</option>
+                    </select><br><br>
+        
+                    <label for="abdominal_pain">Abdominal Pain:</label>
+                    <select id="abdominal_pain" name="abdominal_pain" required>
+                        <option value="No">No</option>
+                        <option value="Yes">Yes</option>
+                    </select><br><br>
+        
+                    <label for="confusion">Confusion:</label>
+                    <select id="confusion" name="confusion" required>
+                        <option value="No">No</option>
+                        <option value="Yes">Yes</option>
+                    </select><br><br>
+                </fieldset>
+        
+                <!-- Severity -->
+                <label for="severity">Severity:</label>
+                <select id="severity" name="severity" required>
+                    <option value="Mild">Mild</option>
+                    <option value="Moderate">Moderate</option>
+                    <option value="Severe">Severe</option>
+                </select><br><br>
+        
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+        
+        <section id="feedbackSection" class="feedback-section">
+            <h2>Symptoms Feedback</h2>
+            {% if s and data and res %}
+            <div class="container">
+                <div class="result-section">
+                    <h2>Input Values:</h2>
+                    <ul>
+                        {% for key, value in data.items() %}
+                            <li><strong>{{ key }}:</strong> {% if value == 1 %}
+                                Yes
+                            {% else %}
+                                No
+                            {% endif %}</li>
+                        {% endfor %}
+                    </ul>
+                    <h2>Detected Health Issues:</h2>
+                    <ul>
+                        <li>
+                            <strong>{{ s }}:</strong>
+                            <a href="{{ res[s]['Article_Link'] }}" target="_blank">Read More</a>
+                        </li>
+                    </ul>
+                    <h2>Recommendations:</h2>
+                        <h3 id="{{ i }}">Recommendations for {{ s }} concerns</h3>
+                        <ul>
+                            {% for category, recommendations in res[s].items() %}
+                                {% if category != 'Article_Link' %}
+                                    <li>
+                                        <strong>{{ category }}:</strong>
+                                        <ul>
+                                            {% for recommendation in recommendations %}
+                                                <li>{{ recommendation }}</li>
+                                            {% endfor %}
+                                        </ul>
+                                    </li>
+                                {% endif %}
+                            {% endfor %}
+                        </ul>
+                        <a href="https://mediafiles.botpress.cloud/9d875aeb-584c-4bc5-b945-80c202527775/webchat/bot.html" ><button 
+                            type="button" style="background-color:blue,color: white,margin-top:2px">
+                            CHAT WITH BOT</button></a>
+                        <a href="{{ url_for('hello') }}" ><button 
+                                type="button" style="background-color:blue,color: white,margin-top:2px">
+                                Okay I Am Done</button></a>
+                    {% endif %}
+        </section>
+    </main>
