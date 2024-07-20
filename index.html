@@ -9,14 +9,14 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
 <body>
-    <div class="container min-h-screen min-w-full bg-[url('images/medi.jpg')] bg-center bg-cover px-28 py-5 relative">
+    <div class="container min-h-screen min-w-full bg-[url('static/medi.jpg')] bg-center bg-cover px-28 py-5 relative">
 
         <nav class="flex items-center justify-between">
-            <img src="images/YOUR_processed.png" class="w-32 cursor-pointer">
+            <img src="static/YOUR_processed.png" class="w-32 cursor-pointer">
             <ul>
                 <li
                     class="list-none inline-block px-5 font-bold text-lg active:bg-blue-500 rounded-full hover:bg-orange-500">
-                    <a href="index.html" class="no-underline text-black px-2 ">Home</a></li>
+                    <a href="{{ url_for('hello') }}" class="no-underline text-black px-2 ">Home</a></li>
                 <li
                     class="list-none inline-block px-5 font-bold text-lg  active:bg-blue-500 rounded-full hover:bg-orange-500">
                     <button id="abt">About</button></li>
@@ -24,7 +24,7 @@
                     class="list-none inline-block px-5 font-bold text-lg active:bg-blue-500 rounded-full hover:bg-orange-500">
                     <button id="cnt">Contact us</button></li>
             </ul>
-            <img src="images/micro.png" class="w-10 cursor-pointer">
+            <img src="static/micro.png" class="w-10 cursor-pointer">
         </nav>
         <div class="para text-black mt-24 max-w-xl text-xl">
             <h1 class="text-5xl font-semibold">Personal Health<br> Made easy. </h1>
@@ -32,7 +32,7 @@
                 Journey with Smart Insights!.Achieve Your Health Goals with Data-Driven Recommendations.</p>
         </div>
         <div class="mt-16">
-            <a href="#survey.html"
+            <a href="{{ url_for('survey') }}"
                 class="no-underline bg-yellow-300 rounded-3xl px-8 py-3 font-medium text-lg hover:bg-transparent hover:border hover:text-black duration-300 hover:border-yellow-300 inline-block">Try
                 now</a>
             <a href="#" class="inline-block text-black text-lg px-7">Download App<span
@@ -45,7 +45,7 @@
             </div>
         </div>
         <a href="https://mediafiles.botpress.cloud/9d875aeb-584c-4bc5-b945-80c202527775/webchat/bot.html"><img src="images/chatbot-Photoroom.png" class="w-28 h-28 xl:absolute right-64 top-40" alt=""><span class="bg-yellow-300 rounded-full p-3 font-medium text-lg xl:absolute right-36 top-52">Chat with us!</span></a>
-        <img src="images/person_processed.png" class="w-full h-100 xl:w-1/2 xl:absolute bottom-0 right-10">
+        <img src="static/person_processed.png" class="w-full h-100 xl:w-1/2 xl:absolute bottom-0 right-10">
 
     </div>
     <script src="index.js"></script>
