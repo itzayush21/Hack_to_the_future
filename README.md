@@ -81,3 +81,15 @@ Visualization and Reporting:
 This Health Monitoring System aims to empower individuals with personalized health insights and recommendations based on a comprehensive analysis of their health data and symptoms. By integrating machine learning with symptom-based analysis, the system offers a proactive approach to health management, helping users make informed decisions to enhance their overall well-being.
 
 
+
+## GLIMSPES
+
+<img width="285" alt="Screenshot 2024-07-20 at 7 02 26 AM" src="https://github.com/user-attachments/assets/e55014a9-8ed6-44de-8d48-5d80b73c5165">
+
+**HOME PAGE**
+
+
+<img width="397" alt="Screenshot 2024-07-20 at 7 02 36 AM" src="https://github.com/user-attachments/assets/99916750-3f6f-48c4-ace0-fbaa7c572dc0">
+
+**FORM**
+
