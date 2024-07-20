@@ -1,13 +1,14 @@
 # SWASTH SAATHI
 
-![YOUR_processed](https://github.com/user-attachments/assets/3e585b59-7858-409c-9ff9-071c0cbbf295)
+<img width="811" alt="Screenshot 2024-07-20 at 5 55 57 AM" src="https://github.com/user-attachments/assets/0918213f-c2dc-450f-88c1-d8ae0239ae9f">
+
 
 ## DESCRIPTION
 
 ### Objective
 *The primary goal of this project is to develop a comprehensive Health Monitoring System using machine learning techniques to analyze user data and provide personalized wellness recommendations. The system is designed to monitor and analyze various health parameters, predict potential health issues, and suggest actionable insights for improving overall well-being.*
 
-### System Features**
+### System Features
 
 **Data Collection and Input:**
 
