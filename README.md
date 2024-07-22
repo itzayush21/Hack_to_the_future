@@ -134,7 +134,7 @@ This Health Monitoring System aims to empower individuals with personalized heal
 
 <img width="716" alt="Screenshot 2024-07-21 at 5 17 06 AM" src="https://github.com/user-attachments/assets/22848b91-61ba-4cd9-880a-b0479e37c30f">
 
-**SAMPLE HEALTH RECPMMENDATION**
+**SAMPLE HEALTH RECOMMENDATION**
 
 
 
