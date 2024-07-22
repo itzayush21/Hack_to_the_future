@@ -97,3 +97,44 @@ This Health Monitoring System aims to empower individuals with personalized heal
 
 **FORM**
 
+
+
+<img width="895" alt="Screenshot 2024-07-21 at 5 14 32 AM" src="https://github.com/user-attachments/assets/fae89616-37d1-459d-9d21-e440d81494fd">
+
+**SAMPLE SYMPTOM BASED ANALYSIS**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="716" alt="Screenshot 2024-07-21 at 5 17 06 AM" src="https://github.com/user-attachments/assets/22848b91-61ba-4cd9-880a-b0479e37c30f">
+
+**SAMPLE HEALTH RECPMMENDATION**
+
+
+
+
