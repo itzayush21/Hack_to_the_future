@@ -2,6 +2,7 @@
 
 ## FINALIST OF HACK TO THE FUTURE (MANIPAL UNIVERSITY JAIPUR) HACKATHON
 
+* *THIS PROJECT WAS CREATED DURING HACK TO THE FUTURE HACKATHON.*
 
 <img width="811" alt="Screenshot 2024-07-20 at 5 55 57 AM" src="https://github.com/user-attachments/assets/0918213f-c2dc-450f-88c1-d8ae0239ae9f">
 
